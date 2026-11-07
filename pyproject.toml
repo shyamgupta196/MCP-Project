@@ -1,0 +1,19 @@
+[project]
+name = "mcp-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "shyam gupta", email = "shyamguptaofficial196@gmail.Com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "mcp>=2.3.0",
+]
+
+[project.scripts]
+mcp-project = "mcp_project:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
